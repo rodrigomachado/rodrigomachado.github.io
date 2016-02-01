@@ -477,6 +477,13 @@ header h2 {
   letter-spacing: 0;
 }
 
+header h1 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px black;
+}
+
 .inner {
   position: relative;
   width: 940px;
@@ -878,4 +885,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
-
